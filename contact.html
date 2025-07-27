@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact CoreFlex Apparel</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="contact.css" />
+</head>
+<body>
+  <header>
+    <h1>CoreFlex Apparel</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-form-section">
+      <h2>Contact Us</h2>
+      <form action="welcome.php" method="POST" class="contact-form">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required placeholder="Your full name" /><br /><br />
+
+        <label for="email">Email Address:</label><br />
+        <input type="email" id="email" name="email" required placeholder="you@example.com" /><br /><br />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+
+    <section class="contact-info-table">
+      <h2>Customer Service Info</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Contact Method</th>
+            <th>Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Email Support</td>
+            <td>support@coreflexapparel.com</td>
+          </tr>
+          <tr>
+            <td>Phone</td>
+            <td>+1 (555) 123-4567 (Mon-Fri, 9am-6pm)</td>
+          </tr>
+          <tr>
+            <td>Social Media</td>
+            <td>@CoreFlexApparel on Instagram and Twitter</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 CoreFlex Apparel. All rights reserved.</p>
+  </footer>
+</body>
+</html>

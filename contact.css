@@ -1,0 +1,98 @@
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+h2 {
+  color: #5a4c3b;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.contact-form-section {
+  background-color: #faf6ee;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+  margin-bottom: 3rem;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+  color: #5a4c3b;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  margin-bottom: 1.5rem;
+  border: 1.5px solid #8a7350;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus {
+  border-color: #6e5a3f;
+  outline: none;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #8a7350;
+  color: white;
+  font-weight: 700;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #6e5a3f;
+}
+
+.contact-info-table {
+  max-width: 800px;
+  margin: 0 auto 4rem;
+  padding: 0 1rem;
+}
+
+.contact-info-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #faf6ee;
+  border-radius: 10px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.contact-info-table thead tr {
+  background-color: #8a7350;
+  color: white;
+  font-weight: 700;
+  text-align: left;
+}
+
+.contact-info-table th,
+.contact-info-table td {
+  padding: 1rem 1.2rem;
+  border-bottom: 1px solid #d8cba5;
+  font-weight: 600;
+  color: #5a4c3b;
+}
+
+.contact-info-table tbody tr:hover {
+  background-color: #e6dfcd;
+  cursor: default;
+}
